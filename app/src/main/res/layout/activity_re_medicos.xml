@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".re_medicos"
+    android:background="@android:color/white">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="356dp"
+        android:layout_height="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="131dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/medicos" />
+
+    <EditText
+        android:id="@+id/ed_medi_cedula"
+        android:layout_width="288dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="186dp"
+        android:hint="Digite  cedula "
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/ed_medi_nombre"
+        android:layout_width="288dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="186dp"
+        android:hint="Digite nombre completo  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_medi_cedula" />
+
+    <EditText
+        android:id="@+id/ed_medi_correo"
+        android:layout_width="288dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="186dp"
+        android:hint="Digite correo   "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_medi_nombre" />
+
+    <EditText
+        android:id="@+id/ed_medi_especialidad"
+        android:layout_width="288dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="186dp"
+        android:hint="Digite la especialidad   "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_medi_correo" />
+
+    <EditText
+        android:id="@+id/ed_medi_clave"
+        android:layout_width="288dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="186dp"
+        android:hint="Digite la clave "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_medi_especialidad" />
+
+    <ImageButton
+        android:id="@+id/imabtnguardarme"
+        android:layout_width="74dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="181dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_medi_clave"
+        app:srcCompat="@drawable/guardar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="26dp"
+        android:text="Click para guardar"
+        app:layout_constraintEnd_toStartOf="@+id/imabtnguardarme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_medi_clave" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

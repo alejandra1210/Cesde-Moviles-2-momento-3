@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "115569842111",
+    "firebase_url": "https://epssaludtotal-96015.firebaseio.com",
+    "project_id": "epssaludtotal-96015",
+    "storage_bucket": "epssaludtotal-96015.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115569842111:android:a63902281f800e4380b30a",
+        "android_client_info": {
+          "package_name": "com.cesde.epssaludtotal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115569842111-u5e37lu0da1bo7tv4ufu8trd1882ol75.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cesde.epssaludtotal",
+            "certificate_hash": "be65e9c7c73c295eb5eb76ae1d7c8ee0698deb60"
+          }
+        },
+        {
+          "client_id": "115569842111-lo2nljjlmgo6gdr8aoqg2bcq9kbuu5mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2lgn7ymkC-7Np4c75p4oPpoFRpImyea8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115569842111-lo2nljjlmgo6gdr8aoqg2bcq9kbuu5mi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
