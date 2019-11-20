@@ -6,15 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class principalpaciente extends AppCompatActivity {
 
     Button irnuevacita;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principalpaciente);
+
+
 
         irnuevacita = findViewById(R.id.btn_nuevacitap);
 

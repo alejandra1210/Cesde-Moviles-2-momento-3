@@ -3,6 +3,7 @@ package com.cesde.epssaludtotal;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.view.View;
@@ -29,7 +30,8 @@ public class nuevacita extends AppCompatActivity {
     EditText fecha, hora, motivo,nombremedicocita;
     TextView Listarnombremedico;
 
-    ImageButton guardarcitanueva;
+    ImageButton guardarcitanueva ,salircita;
+    ;
 
     public Medicos medicos;
 
@@ -39,6 +41,9 @@ public class nuevacita extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nuevacita);
+
+        salircita = findViewById(R.id.imageBtn_paciente_salir);
+
 
         fecha=findViewById(R.id.ed_fecha);
         hora=findViewById(R.id.ed_hora);
@@ -59,6 +64,16 @@ public class nuevacita extends AppCompatActivity {
         });*/
 
        // Listarnombremedico.setText(""+medicos);
+
+
+        salircita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent salir = new Intent(nuevacita.this, MainActivity.class);
+                startActivity(salir);
+
+            }
+        });
 
         guardarcitanueva.setOnClickListener(new View.OnClickListener() {
             @Override
